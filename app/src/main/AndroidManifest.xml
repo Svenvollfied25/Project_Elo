@@ -16,6 +16,16 @@
             android:theme="@style/MyMaterialTheme">
 
         </activity>
+        <activity
+            android:name=".Activities.UserProfile"
+            android:theme="@style/MyMaterialTheme">
+
+        </activity>
+        <activity
+            android:name=".Activities.TestActivity"
+            android:theme="@style/MyMaterialTheme">
+
+        </activity>
 
     </application>
 
