@@ -291,10 +291,6 @@ Elo is an Android application which allows people to share and contribute their 
 
 ## Code Examples
 
-Currently, the user credentials and activities are not being stored and tracked in the database when the user opts for the  Gmail login due to time constraints. These changes are will be incorporated in the future.
-
-**Problem 1: Method for handling the user signin**
-
 A short description.
 ```
 googleSignIn.setOnClickListener(new View.OnClickListener() {
@@ -327,6 +323,11 @@ private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
 **Problem 2: App crashes**
 
 Elo uses Firebase Realtime Database to store images and content. We are handling significant amount of data of users, reviews and comments. Furthermore, we are also allowing user to upload images for review and their profile. Therefore, at times the database respond slowly and produces error. This is usually witnessed when uploading images on review as user might try to upload large image file.
+
+## Issues
+
+ 1. [Issue with the like button](https://github.com/Svenvollfied25/Project_Elo/issues/36) - **Resolved**
+
 
 ## Feature Section
 
