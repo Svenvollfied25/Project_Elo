@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_16_03_18__3_46_PM__Default_" date="1521225987945" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_18__3_46_PM__Default_/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 16/03/18, 3:46 PM [Default]" />
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/drawable/phone24X24.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/drawable/headphones24X24.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/drawable/tab24X24.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/drawable/console24X24.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/drawable/laptop24X24.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
