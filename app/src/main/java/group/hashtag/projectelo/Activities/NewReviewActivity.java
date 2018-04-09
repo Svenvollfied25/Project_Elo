@@ -386,7 +386,6 @@ public class NewReviewActivity extends AppCompatActivity {
         String userId = auth.getUid();
         String reviewTitle = newReviewTitle.getText().toString().trim();
         String reviewDescription = newReviewDescription.getText().toString().trim();
-<<<<<<< Updated upstream
         String deviceCategory = category.getSelectedItem().toString();
         String deviceName;
         if(TextUtils.isEmpty(deviceCategory) || deviceCategory.equals("Select Category")) {
@@ -395,23 +394,11 @@ public class NewReviewActivity extends AppCompatActivity {
         } else{
             deviceName = device.getSelectedItem().toString();
         }
-=======
-
->>>>>>> Stashed changes
         ReviewPic.setDrawingCacheEnabled(true);
         ReviewPic.buildDrawingCache();
         Bitmap bitmap = ReviewPic.getDrawingCache();
 
-<<<<<<< Updated upstream
         if (!TextUtils.isEmpty(reviewTitle) && !TextUtils.isEmpty(reviewDescription) && !TextUtils.isEmpty(deviceName)&& !TextUtils.isEmpty(deviceCategory)) {
-=======
-        if((device.getSelectedItemPosition() == 0) || (category.getSelectedItemPosition() == 0)){
-            Toast.makeText(getApplicationContext(),"Make sure you have selected a device name and catergory", Toast.LENGTH_SHORT).show();
-        }
-        else if (!TextUtils.isEmpty(reviewTitle) && !TextUtils.isEmpty(reviewDescription)) {
-            String deviceCategory = category.getSelectedItem().toString();
-            String deviceName = device.getSelectedItem().toString();
->>>>>>> Stashed changes
             id = reviewDatabase.push().getKey();
             uploadImage(bitmap);
             UploadDelay uploadDelay = new UploadDelay();
