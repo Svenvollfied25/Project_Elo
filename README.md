@@ -324,6 +324,10 @@ private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {
 
 ```
 
+**Problem 2: App crashes**
+
+Elo uses Firebase Realtime Database to store images and content. We are handling significant amount of data of users, reviews and comments. Furthermore, we are also allowing user to upload images for review and their profile. Therefore, at times the database respond slowly and produces error. This is usually witnessed when uploading images on review as user might try to upload large image file.
+
 ## Feature Section
 
 - Splash screen 
@@ -415,3 +419,5 @@ The Minimum functionalities of the project have been completed and tested and we
 [21] "Maven Repository: org.hamcrest » hamcrest-integration » 1.3", Mvnrepository.com, 2018. [Online]. Available: https://mvnrepository.com/artifact/org.hamcrest/hamcrest-integration/1.3. [Accessed: 31- Mar- 2018].
 
 [22] "Maven Repository: org.hamcrest » hamcrest-library » 1.3", Mvnrepository.com, 2018. [Online]. Available: https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library/1.3. [Accessed: 06- Apr- 2018].
+
+[23] Gitignore.io, 2018. [Online]. Available: https://www.gitignore.io/api/androidstudio. [Accessed: 08- Apr- 2018].
